@@ -1,9 +1,9 @@
 def my_select(collection)
   counter = 0
   selection = []
-  while counter < array.length
-      selection << yield(array[counter])
+  while counter < collection.length
+      selection << yield(collection[counter])
       counter += 1
     end
-    collection
+    selection
   end
