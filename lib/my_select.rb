@@ -9,4 +9,6 @@ def my_select(collection)
     selection
 end
 
-my_select { if (collection[counter]) == true selection << (collection[counter]) }
+my_select { if (collection[counter]) == true do
+  selection << (collection[counter])
+end }
